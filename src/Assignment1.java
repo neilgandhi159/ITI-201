@@ -1,4 +1,5 @@
 public class Assignment1 {
+
 	public static void main(String[] args) {
 		String firstName = "Neil";
 		String lastName = "Gandhi";
@@ -11,6 +12,8 @@ public class Assignment1 {
 		System.out.println(lastName.toLowerCase());
 		System.out.println(firstName.charAt(2));
 		System.out.println(lastName.charAt(1));
-		
+		System.out.println(firstName.substring(0,2));
+		System.out.println(lastName.substring(1,3));
+
 	}
 }
