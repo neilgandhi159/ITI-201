@@ -11,8 +11,8 @@ public class JavaLecture2 {
 		// i = i + 1 or i += 1
 		
 		for(int i = 0; i < myInts.length; i++){
-			System.out.println("We are at index: " + i + " and we are setting it to " + (i^2));
-			myInts[i] = i;
+			System.out.println("We are at index: " + i + " and we are setting it to " + (i+2));
+			myInts[i] = i+2;
 		}//end of for loop
 		
 		
@@ -30,7 +30,7 @@ public class JavaLecture2 {
 			for(int j = 1; j < 7; j += 2 ){
 				System.out.println(i + "x" + j + "=" + (i*j));
 			}
-		}
+		} 
 		
 		int counter = 0;
 		int result = 0;
@@ -73,7 +73,7 @@ public class JavaLecture2 {
 		
 		for(int i= 0; i < 20; i++) {
 			if(evenOrNah(i).equals("is even!")) {
-				System.out.print(i + " ");
+				System.out.println(i + " ");
 			}//end of if
 		}//end of loop
 		
@@ -101,7 +101,11 @@ public class JavaLecture2 {
 		}
 		else {
 			System.out.println("Both of my booleans are false");
-		}
+		}//end of else
+		/*
+		 x and y are both booleans
+		 x		&&		y
+		 */
 				
 		
 	}//end of main method
