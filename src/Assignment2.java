@@ -4,7 +4,6 @@ public class Assignment2 {
 		int[] myInts = new int [10];
 
 		for(int i = 0; i < myInts.length; i++){
-			//System.out.print((i*2+1) + " ");
 			myInts[i] = i*2+1;
 		}
 		for(int i = myInts.length-1; i >= 0; i--){
@@ -12,14 +11,12 @@ public class Assignment2 {
 		}
 
 		System.out.println(" ");
-		System.out.println(" ");
 		
 		for(int i = 0; i < myInts.length; i++) {
 			if(myInts[i]%3 == 0) {
 				System.out.print(myInts[i] +  " ");
 			}
 		}
-		System.out.println(" ");
 		System.out.println(" ");
 		
 		int counter = 1;
@@ -29,7 +26,6 @@ public class Assignment2 {
 			System.out.print(result + " ");
 			counter++;
 		}
-		System.out.println(" ");
 		System.out.println(" ");
 		
 		String firstName = "Neil";
@@ -41,7 +37,6 @@ public class Assignment2 {
 			System.out.print(firstNameChar[i]);
 		}
 		
-		System.out.println(" ");
 		System.out.println(" ");
 		
 		int[] myIntsFlipped = new int [10];
@@ -55,4 +50,4 @@ public class Assignment2 {
 		
 		
 	}//end of main method
-}//end of assignment2
+}//end of Assignment2
