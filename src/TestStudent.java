@@ -14,7 +14,7 @@ public class TestStudent {
 			//scan.nextLine(); // clean Scanner out --> not always needed, if you find you don't take it out
 			// Student tempStudent = new Student(name, gpa);
 			// by taking the previous line out we save a step
-			myStudents[i] = new Student(name /*, gpa*/); // because each index represents a student we can do this
+			myStudents[i] = new Student(name /*, gpa*/, name, i); // because each index represents a student we can do this
 			// we have called the constructor for creating a Student that requires a name and GPA
 			// we provided both from the user input
 		}//end of for loop
