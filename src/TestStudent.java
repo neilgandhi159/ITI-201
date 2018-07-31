@@ -3,7 +3,7 @@ import java.util.Scanner; // import things that aren't included by default when 
 public class TestStudent {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in); // creating a new instance of the Scanner class
-		Student[] myStudents = new Student[2]; // creating an array of Students
+		Student[] myStudents = new Student[5]; // creating an array of Students
 		
 		// this for loop fills our array
 		for(int i = 0; i < myStudents.length; i++){
@@ -17,9 +17,11 @@ public class TestStudent {
 			myStudents[i] = new Student(name /*, gpa*/, name, i); // because each index represents a student we can do this
 			// we have called the constructor for creating a Student that requires a name and GPA
 			// we provided both from the user input
+			
 		}//end of for loop
+
 		// the following line doesn't work, the scope of name is ONLY within the loop
-		// name = "";
+		// name = ""; 
 		
 		// the next for loop is calling the getName and getGpa methods to print the values
 		for(int i = 0; i < myStudents.length; i++){
